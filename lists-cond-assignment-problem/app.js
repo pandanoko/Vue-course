@@ -6,9 +6,9 @@ const app = Vue.createApp({
             isVisible: true,
         }
     },
-    watch: {
-        goals() {
-
+    computed: {
+        buttonLabel() {
+            return this.isVisible ? "Hide list" : "Show list";
         }
     },
     methods: {
