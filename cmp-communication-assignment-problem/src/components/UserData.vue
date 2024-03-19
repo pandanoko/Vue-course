@@ -16,7 +16,7 @@
 					v-model="enteredEmail"
 				/>
 			</div>
-			<button>Submit</button>
+			<button>Set user data</button>
 		</form>
 	</section>
 </template>
